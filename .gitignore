@@ -1,0 +1,41 @@
+# Dependencias
+node_modules/
+**/node_modules/
+package-lock.json
+**/package-lock.json
+
+# Entorno y credenciales privadas
+.env
+**/.env
+.env.local
+.env.*.local
+!.env.example
+!**/.env.example
+
+# Compilados y empaquetados
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs y depuración
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Documentos ofimáticos y formatos de entrega institucional
+*.docx
+*.pdf
+*.xlsx
+*.pptx
+
+# Scripts de automatización interna y directorios auxiliares
+*.py
+imagen/
+scratch/
+.system_generated/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
